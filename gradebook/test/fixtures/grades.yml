@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  course: HTML Intro
+  name: Steve Ricks
+  assignment: Intro to divs
+  grade: 85
+
+two:
+  course: HTML Intro
+  name: John Fireseat
+  assignment: Intro to divs
+  grade: 100

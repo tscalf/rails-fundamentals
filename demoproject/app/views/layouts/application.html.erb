@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demoproject</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <!-- Menu Code -->
+  <header class ="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <nav>
+        <ul class="navbar pull-right">
+          <li><%= link_to "Test", 'test'%></li>
+          <li><%= link_to "About", 'about'%></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <%= yield %>
+  </div>
+
+</body>
+</html>
